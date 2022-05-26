@@ -1,0 +1,43 @@
+.banner {
+  background-image: url("ba1.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.banner-info {
+  position: relative;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+
+body {
+  margin-bottom: 300px;
+}
+
+.nav-linkT {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #439c0f;
+  text-decoration: none;
+}
+
+#puntitos{
+  border-bottom: 1px dotted rgb(7, 3, 3);
+    text-decoration: none;
+}
